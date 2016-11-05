@@ -6,5 +6,5 @@ This repo demos a bug with electron and sql.js.
 * In one terminal, `npm run server`
 * In another terminal, `npm run app`
 
-* You should see an error with no trace in the `npm run all` terminal.
+* You should see an error with no trace in the `npm run app` terminal.
 * Comment out the sql.js import in `app/main/index.js` and the trace will appear.
